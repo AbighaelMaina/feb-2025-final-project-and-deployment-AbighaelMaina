@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercise Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="exercise.html">Exercise</a></li>
+        <li><a href="sleep.html">Sleep</a></li>
+        <li><a href="goals.html">Goals</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="exercise-form">
+      <h2>Log Your Exercise</h2>
+      <form id="exercise-form">
+        <label for="activity">Activity Type</label>
+        <input type="text" id="activity" required>
+        
+        <label for="duration">Duration (minutes)</label>
+        <input type="number" id="duration" required>
+        
+        <label for="calories">Calories Burned</label>
+        <input type="number" id="calories" required>
+
+        <button type="submit">Log Exercise</button>
+      </form>
+      <div id="exercise-list"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Wellness Tracker</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

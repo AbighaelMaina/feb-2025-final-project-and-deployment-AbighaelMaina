@@ -1,0 +1,83 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background-color: #4CAF50;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 1rem;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  .intro {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .exercise-form {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .exercise-form label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .exercise-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .exercise-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .exercise-form button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .exercise-form {
+      width: 100%;
+    }
+  }
+  

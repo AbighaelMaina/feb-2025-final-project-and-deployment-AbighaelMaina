@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sleep Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="exercise.html">Exercise</a></li>
+        <li><a href="sleep.html">Sleep</a></li>
+        <li><a href="goals.html">Goals</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="sleep-form">
+      <h2>Log Your Sleep</h2>
+      <form id="sleep-form">
+        <label for="sleep-start">Sleep Start Time</label>
+        <input type="time" id="sleep-start" required>
+        
+        <label for="sleep-end">Sleep End Time</label>
+        <input type="time" id="sleep-end" required>
+
+        <button type="submit">Log Sleep</button>
+      </form>
+      <div id="sleep-list"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Wellness Tracker</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
